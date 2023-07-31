@@ -21,7 +21,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	public List<Employee> findAll() {
 		// this is only for checking git demo 
-		
+		// this is only for checout test
+		// this comment to show diff command
 		return employeeRepository.findAll();
 	}
 

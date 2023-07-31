@@ -43,7 +43,8 @@ public class EmployeeRestController {
 	@GetMapping("/employees/{id}")
 	public  ResponseEntity<Employee> findEmpById(@PathVariable("id") int employeeId) {
 
-		//Employee emp2 = new Employee();
+		
+		
 
 		Employee emp2 = empService.findEmpById(employeeId);
 
